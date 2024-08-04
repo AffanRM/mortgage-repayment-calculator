@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/AffanRM/mortgage-repayment-calculator)
+- Live Site URL: [Website](https://affanrm.github.io/mortgage-repayment-calculator/)
 
 ## My process
 
