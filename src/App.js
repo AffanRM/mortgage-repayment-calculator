@@ -3,15 +3,6 @@ import './App.css';
 import { useState, useEffect } from "react";
 
 function App() {
- 
-  /*const [q1, setQ1] = useState('Who is the 100th successor?');
-  const [isAnswered, setIsAnswered] = useState(false); // State to control styling */
-
-  /*const answerQ1 = (e) => {
-    setQ1("Monty Mike");
-    setIsAnswered(true); // Update the state to change the style
-    console.log(e.target);
-  }*/
 
   // manage the state when input element is focused 
   const [isFocused1, setIsFocused1] = useState(false);
@@ -235,7 +226,7 @@ function App() {
              <div className='right-half show'>
               <div className='rh-outer-container'>
                 <div>
-                  <img className='empty-img' src="/illustration-empty.svg" alt="illustration-image" />
+                  <img className='empty-img' src={`${process.env.PUBLIC_URL}/illustration-empty.svg`} alt="illustration-image" />
                 </div>
                 <h3 className='empty-result-heading'>Results Shown Here</h3>
                 <p className='empty-result-para'>
